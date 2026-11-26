@@ -2,13 +2,23 @@
 
 Téléchargements et nouveautés de chaque version de Forma Studio, de la plus récente à la plus ancienne.
 
-## ⬇️ Télécharger la dernière version : Forma Studio 1.2.5
+## ⬇️ Télécharger la dernière version : Forma Studio 1.2.6
 
-- [Forma.Studio_1.2.5_x64-setup.exe](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.5/Forma.Studio_1.2.5_x64-setup.exe)
-- [Forma.Studio_x64_fr-FR.msi](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.5/Forma.Studio_x64_fr-FR.msi)
+- [Forma.Studio_1.2.6_x64-setup.exe](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.6/Forma.Studio_1.2.6_x64-setup.exe)
+- [Forma.Studio_x64_fr-FR.msi](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.6/Forma.Studio_x64_fr-FR.msi)
 - [Page de la release et notes de version](https://github.com/Postman78000/Forma.3D-Release/releases/latest)
 
 Documentation : [wiki](https://github.com/Postman78000/Forma.3D-Release/wiki)
+
+---
+
+## Forma Studio 1.2.6 — 26 novembre 2026
+
+#### Évolutions
+
+- Quatre modes d'affichage : Ombré, Ombré, arêtes visibles, Filaire, arêtes visibles et Filaire remplacent les anciens modes et leurs cases à cocher ; les contours des surfaces courbes et les limites des congés sont tracés, l'éclairage distingue mieux les faces et la touche W fait défiler les modes. Un ancien projet s'ouvre dans le mode le plus proche.
+
+**Téléchargements :** [Forma.Studio_1.2.6_x64-setup.exe](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.6/Forma.Studio_1.2.6_x64-setup.exe) · [Forma.Studio_x64_fr-FR.msi](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.6/Forma.Studio_x64_fr-FR.msi)
 
 ---
 
