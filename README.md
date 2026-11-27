@@ -2,13 +2,36 @@
 
 Téléchargements et nouveautés de chaque version de Forma Studio, de la plus récente à la plus ancienne.
 
-## ⬇️ Télécharger la dernière version : Forma Studio 1.2.6
+## ⬇️ Télécharger la dernière version : Forma Studio 1.2.7
 
-- [Forma.Studio_1.2.6_x64-setup.exe](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.6/Forma.Studio_1.2.6_x64-setup.exe)
-- [Forma.Studio_x64_fr-FR.msi](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.6/Forma.Studio_x64_fr-FR.msi)
+- [Forma.Studio_1.2.7_x64-setup.exe](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.7/Forma.Studio_1.2.7_x64-setup.exe)
+- [Forma.Studio_x64_fr-FR.msi](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.7/Forma.Studio_x64_fr-FR.msi)
 - [Page de la release et notes de version](https://github.com/Postman78000/Forma.3D-Release/releases/latest)
 
 Documentation : [wiki](https://github.com/Postman78000/Forma.3D-Release/wiki)
+
+---
+
+## Forma Studio 1.2.7 — 27 novembre 2026
+
+#### Corrections
+
+- Congé sans fausses arêtes : arrondir ou chanfreiner une arête ne découpe plus les faces voisines. Les arêtes longitudinales qui pouvaient apparaître sur la paroi d'un cylindre, surtout irrégulier ou creusé d'une gorge, sont supprimées à leur origine (triangles en aiguille à la jonction du congé), et les facettes d'une surface courbe ne sont plus prises pour des limites de raccord.
+- Décalage d'esquisse, distance au clavier : la saisie de la distance, placée hors de l'écran, apparaît désormais dans le dessin. Sa valeur suit la souris, accepte les décimales et les valeurs négatives, et se valide par Entrée ou par un clic. Décalage peut aussi être lancé avant de choisir la forme.
+- Sélection après un décalage : le contour d'origine (chaque côté et la forme entière) reste sélectionnable quand un contour plus grand l'entoure ; entre deux traits très proches, le clic choisit le plus proche et non le dernier créé.
+- Extrusion de plusieurs régions : une région et le contour qui l'entoure (un rectangle et son décalage, par exemple) sont désormais extrudés ensemble. Auparavant, une seule des deux était prise en compte. Ctrl + clic dans l'esquisse retire aussi une région de la sélection, et Valider conserve toutes les régions choisies.
+- Ligne de construction : l'outil crée de nouveau une ligne.
+- Nombre de côtés d'un polygone : taper 12 donnait 32.
+- Entrée et unités : Entrée valide les tracés, les formulaires et les panneaux de répétition ; la saisie d'une cote affiche in en mode pouces ; l'aperçu des arcs ne disparaît plus quand on va saisir une valeur.
+
+#### Évolutions
+
+- Les extrusions suivent leur esquisse : quand vous modifiez une esquisse, les extrusions issues de ses régions sont recalculées. Une région supprimée est signalée et son extrusion garde sa forme.
+- Saisie des dimensions dans le dessin : tous les tracés d'esquisse proposent une saisie flottante (X et Y pour le premier point, puis longueur, angle ou cotes de la forme). On tape directement depuis le dessin ; Tab, Entrée et Échap fonctionnent partout. Les cotes ont quitté le bandeau du haut.
+- Saisies qui ne masquent plus le dessin : tracés, décalage, déplacement, cote imposée, arrondi, chanfrein et répétitions placent leur saisie à l'écart des formes, des cotes et des poignées.
+- Déplacer, Pivoter et Étirer : ΔX, ΔY et angle dès le lancement de Déplacer / Pivoter, avec aperçu ; un clic sur un sommet ou un côté dans Étirer permet de saisir son déplacement.
+
+**Téléchargements :** [Forma.Studio_1.2.7_x64-setup.exe](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.7/Forma.Studio_1.2.7_x64-setup.exe) · [Forma.Studio_x64_fr-FR.msi](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.7/Forma.Studio_x64_fr-FR.msi)
 
 ---
 
