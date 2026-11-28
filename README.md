@@ -2,13 +2,30 @@
 
 Téléchargements et nouveautés de chaque version de Forma Studio, de la plus récente à la plus ancienne.
 
-## ⬇️ Télécharger la dernière version : Forma Studio 1.2.7
+## ⬇️ Télécharger la dernière version : Forma Studio 1.2.8
 
-- [Forma.Studio_1.2.7_x64-setup.exe](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.7/Forma.Studio_1.2.7_x64-setup.exe)
-- [Forma.Studio_x64_fr-FR.msi](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.7/Forma.Studio_x64_fr-FR.msi)
+- [Forma.Studio_1.2.8_x64-setup.exe](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.8/Forma.Studio_1.2.8_x64-setup.exe)
+- [Forma.Studio_x64_fr-FR.msi](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.8/Forma.Studio_x64_fr-FR.msi)
 - [Page de la release et notes de version](https://github.com/Postman78000/Forma.3D-Release/releases/latest)
 
 Documentation : [wiki](https://github.com/Postman78000/Forma.3D-Release/wiki)
+
+---
+
+## Forma Studio 1.2.8 — 28 novembre 2026
+
+#### Corrections
+
+- Milieu d'un arc : le curseur s'accrochait au milieu de petites facettes d'affichage, à côté du vrai milieu, et ne glissait pas le long de l'arc. Il vise désormais le milieu exact de l'arc ; les courbes lisses n'ont plus de faux milieux.
+- Ellipses inclinées : « Sur la forme » donne de nouveau un point situé sur l'ellipse.
+- Intersections exactes : aux croisements avec un arc, un cercle ou une ellipse, le point accroché est calculé sur la courbe réelle, contacts tangents compris, et l'accrochage reste fluide sur une esquisse très chargée.
+
+#### Évolutions
+
+- Aimant d'esquisse complété : le curseur s'accroche maintenant aux angles des rectangles, des polylignes et des polygones, et aux centres des ellipses et des arcs d'ellipse. Pour une intersection ou un centre, les formes concernées sont entourées d'un halo.
+- Étirer et centre de répétition aimantés : un sommet tiré avec Étirer s'accroche aux formes qui ne bougent pas ; le choix du centre de Répéter en cercle montre le repère du point qui sera retenu.
+
+**Téléchargements :** [Forma.Studio_1.2.8_x64-setup.exe](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.8/Forma.Studio_1.2.8_x64-setup.exe) · [Forma.Studio_x64_fr-FR.msi](https://github.com/Postman78000/Forma.3D-Release/releases/download/v1.2.8/Forma.Studio_x64_fr-FR.msi)
 
 ---
 
